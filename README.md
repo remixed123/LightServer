@@ -6,6 +6,14 @@ You can control the lights via iOS Apps or via a webpages that are on the device
 The quickest way to understand what LightServer does, is to view the demos on 
 Vimeo - https://vimeo.com/album/3015956 
 
+### What Lights Are Required
+
+One of the best things about LightServer is that it works with the very popular and common 
+WS8212b Chip Set lights. These are the 5 volt ones that can be found everywhere. I have 
+tested extensively with AdaFruit NeoPixels and everything works perfectly with them. AdaFruit 
+also has most everything else you need to work with.  NOTE TO SELF: Need To Look Into Seeed Studios 
+as potential promotional partner - already working with TI - They also has the WS8212b lights to sell.
+
 ### How Can LightServer Be Used?
 
 It can be used in various lighting and entertainment situations, including parties, festive events,
@@ -29,11 +37,14 @@ and software installations).
 * An Open Source Programmer (Join the community efforts and add your own features)
 * A Professional who develops for the Texas Instruments Tiva C and the CC3100/CC3200 MCUs 
 (There is a lot of helpful code to perform all sorts of tasks).
-* Manufacturers of Electronic Lighting Devices, IoT Devices, Home Automation or other Wifi Enabled devices
+* Manufacturers of Electronic Devices, IoT Devices, Home Automation or other Wifi Enabled devices
  (You are free to use this code to develop a commercial product based on Texas Instruments MCUs, contact 
  me for more information or assistance). If you feel generous, I am always open to receiving some public 
  thanks and the end product if possible. If not possible, it still would be great to know where my code has 
 ended up...geek pride and all.
+* Manufacturers of RGB Lighting Devices. You may use the entire code base to work with your own custom board, I 
+recommend you contact me for assistance, I will be more than happy to offer any advice I can. And the iSO Apps will
+be ready to use.
 
 ### Who Cannot Use This Code?
 
@@ -47,12 +58,6 @@ a TI MVP and as such I am pretty passionate about the latest Wifi IoT MCUs from 
 
 Not a problem, you can access the pre-built binaries and follow the detailed steps. You will 
 have your very own LightServer being controlled by iOS Apps in no time. 
-
-### What Lights Are Required
-
-One of the best things about LightServer is that it works with the very popular and common 
-WS8212b Chip Set lights. These are the 5volt ones that can be found everywhere. I have 
-tested extensively with NeoPixels and everything works perfectly with them.
 
 ### What Technology Is Being Used
 
