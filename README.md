@@ -29,20 +29,19 @@ and software installations).
 * An Open Source Programmer (Join the community efforts and add your own features)
 * A Professional who develops for the Texas Instruments Tiva C and the CC3100/CC3200 MCUs 
 (There is a lot of helpful code to perform all sorts of tasks).
-* A Manufacturer of Electronic Lighting Devices (You are free to use this code to develop a 
-commercial product based on Texas Instruments MCUs, contact me for more information or 
-assistance). If you feel generous, I am always open to receiving some public thanks and
-the end product if possible. If not possible, it still would be great to know where my code has 
-ended up.
+* Manufacturers of Electronic Lighting Devices, IoT Devices, Home Automation or other Wifi Enabled devices
+ (You are free to use this code to develop a commercial product based on Texas Instruments MCUs, contact 
+ me for more information or assistance). If you feel generous, I am always open to receiving some public 
+ thanks and the end product if possible. If not possible, it still would be great to know where my code has 
+ended up...geek pride and all.
 
 ### Who Cannot Use This Code?
 
 * The code has been developed for a specific platform (TI ARM Cortex M4 MCUs) using specific IDE (Code 
 Composure Studio) and RTOS (TI-RTOS). So most of it will only function when you use this technology.
-* Though I cannot anyone using code that has been made available on the Internet in what ever way they see fit. 
-I do ask that is you are looking to develop a product using this code, that you at least take a good look at 
-Texas Instruments MCUs. No, I am not a TI employee, but I am a TI MVP and as such I am pretty passionate about
-the latest Wifi IoT MCUs from TI.
+* Though I cannot enforce this request. I do ask that if you are looking to develop a product using this 
+code, that you at least take a good look at Texas Instruments MCUs. No, I am not a TI employee, but I am 
+a TI MVP and as such I am pretty passionate about the latest Wifi IoT MCUs from TI.
 
 ### No Developer Experience Required
 
@@ -53,7 +52,7 @@ have your very own LightServer being controlled by iOS Apps in no time.
 
 One of the best things about LightServer is that it works with the very popular and common 
 WS8212b Chip Set lights. These are the 5volt ones that can be found everywhere. I have 
-tested extensively with NeoPixels.
+tested extensively with NeoPixels and everything works perfectly with them.
 
 ### What Technology Is Being Used
 
