@@ -1,8 +1,7 @@
 /*
  * json.c
  *
- *  Created on: 23/07/2014
- *      Author: glenn
+ *  Obtained from the JSMN Project - http://zserge.com/jsmn.html
  */
 
 //#include <curl/curl.h>

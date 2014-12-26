@@ -1,9 +1,25 @@
-/*
- * lscreatedata.c
- *
- *  Created on: 30/09/2014
- *      Author: glenn
- */
+//*****************************************************************************
+//
+// Application Name        - LightServer
+// File Name			   - lscreatedata.c
+// Application Version     - 2.5.0
+// Application Modify Date - 26th of December 2014
+// Application Developer   - Glenn Vassallo
+// Application Contact	   - contact@swiftsoftware.com.au
+// Application Repository  - https://github.com/remixed123/LightServer
+//
+// Application Overview    - LightServer is a Wifi enabled embedded device which
+//						     controls RGB Intelligent lighting in various ways.
+//							 You can control the lights via iOS Apps or via a
+//							 webpages that are on the device.This example project
+//							 provides a starting
+//
+// File Overview		   - lscreatedata.c contains functions to manipulate and
+// 							 create lighting data for various types of LED chips
+//
+// Application Details     - https://github.com/remixed123/LightServer/readme.txt
+//
+//*****************************************************************************
 
 #include "lightserver.h"
 #include "lscreatedata.h"
@@ -114,14 +130,14 @@ lsresult_t convertToBitCount(int bitCount, int stripeCounter)
 ///////////////////////////////////////////////////////
 
 //*****************************************************************************
-//! createMinleon
+//! createCyt305
 //!
 //! This function create the light packet for Minleon lights
 //!
 //! params: type: raw = 0 ; ddp control = 1
 //*****************************************************************************
 
-lsresult_t createMinleon(int packetType)
+lsresult_t createCyt305(int packetType)
 {
 	int i, k;
 
@@ -330,7 +346,7 @@ lsresult_t createStandard(int packetType, int colorType)
 //!
 //! This function selects the correct function to create the lightData for a specific type of light
 //!
-//! params: type: 0 = WS8211/WS8212/TM1809/NeoPixels ; 1 = CYT3005/Minleon
+//! params: type: 0 = WS8211/WS8212/TM1809/NeoPixels ; 1 = CYT3005
 //*****************************************************************************
 lsresult_t createLightData(int protocolType, int packetType)
 {
@@ -341,7 +357,7 @@ lsresult_t createLightData(int protocolType, int packetType)
 	}
 	else if (protocolType == MANCHESTER)
 	{
-		createMinleon(packetType);
+		createCyt305(packetType);
 	}
 
 	return LS_SUCCESS;

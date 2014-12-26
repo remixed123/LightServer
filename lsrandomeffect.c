@@ -1,9 +1,25 @@
-/*
- * lsrandomeffect.c
- *
- *  Created on: 30/09/2014
- *      Author: glenn
- */
+//*****************************************************************************
+//
+// Application Name        - LightServer
+// File Name			   - lsrandomeffect.c
+// Application Version     - 2.5.0
+// Application Modify Date - 26th of December 2014
+// Application Developer   - Glenn Vassallo
+// Application Contact	   - contact@swiftsoftware.com.au
+// Application Repository  - https://github.com/remixed123/LightServer
+//
+// Application Overview    - LightServer is a Wifi enabled embedded device which
+//						     controls RGB Intelligent lighting in various ways.
+//							 You can control the lights via iOS Apps or via a
+//							 webpages that are on the device.This example project
+//							 provides a starting
+//
+// File Overview		   - lsrandomeffect.c contains functions to randomly
+//							 select effects.
+//
+// Application Details     - https://github.com/remixed123/LightServer/readme.txt
+//
+//*****************************************************************************
 
 #include "lightserver.h"
 #include "lsrandomeffect.h"

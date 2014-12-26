@@ -1,9 +1,16 @@
-/*
- * lscolors.h
- *
- *  Created on: 30/09/2014
- *      Author: glenn
- */
+//*****************************************************************************
+//
+// Application Name        - LightServer
+// File Name			   - lscolors.h
+// Application Version     - 2.5.0
+// Application Modify Date - 26th of December 2014
+// Application Developer   - Glenn Vassallo
+// Application Contact	   - contact@swiftsoftware.com.au
+// Application Repository  - https://github.com/remixed123/LightServer
+//
+// Further Details:		   - Please view the details in lscolors.c
+//
+//*****************************************************************************
 
 #ifndef LSCOLORS_H_
 #define LSCOLORS_H_

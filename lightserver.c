@@ -1,11 +1,27 @@
-/*
- * Copyright (c) 2014, Glenn Vassallo
- * All rights reserved.
- */
-
-/*
- *    ======== lightServer.c ========
- */
+//*****************************************************************************
+//
+// Application Name        - LightServer
+// File Name			   - lightserver.c
+// Application Version     - 2.5.0
+// Application Modify Date - 26th of December 2014
+// Application Developer   - Glenn Vassallo
+// Application Contact	   - contact@swiftsoftware.com.au
+// Application Repository  - https://github.com/remixed123/LightServer
+//
+// Application Overview    - LightServer is a Wifi enabled embedded device which
+//						     controls RGB Intelligent lighting in various ways.
+//							 You can control the lights via iOS Apps or via a
+//							 webpages that are on the device.This example project
+//							 provides a starting
+//
+// File Overview		   - lightserver.c contains the main program loop that sends
+//							 and receives packets. It also includes the control aspects,
+//							 the clock and the processing of the internal HTTP web
+//							 server requests.
+//
+// Application Details     - https://github.com/remixed123/LightServer/readme.txt
+//
+//*****************************************************************************
 
 /* Standard Header files */
 #include <math.h>

@@ -1,3 +1,9 @@
+/*
+ * jsmn.c
+ *
+ *  Obtained from the JSMN Project - http://zserge.com/jsmn.html
+ */
+
 #include <stdlib.h>
 
 #include "jsmn.h"

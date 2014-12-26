@@ -1,4 +1,29 @@
+//*****************************************************************************
+//
+// Application Name        - LightServer
+// File Name			   - lsspiencode.c
+// Application Version     - 2.5.0
+// Application Modify Date - 26th of December 2014
+// Application Developer   - Glenn Vassallo
+// Application Contact	   - contact@swiftsoftware.com.au
+// Application Repository  - https://github.com/remixed123/LightServer
+//
+// Application Overview    - LightServer is a Wifi enabled embedded device which
+//						     controls RGB Intelligent lighting in various ways.
+//							 You can control the lights via iOS Apps or via a
+//							 webpages that are on the device.This example project
+//							 provides a starting
+//
+// File Overview		   - lsspiencode.c contains lookup tables for encoding
+//						 	 Light Data into SPI data
+//
+// Application Details     - https://github.com/remixed123/LightServer/readme.txt
+//
+//*****************************************************************************
+
 /*
+ * In reference to const unsigned short manchester_encode[256]
+ *
  * Copyright (c) 2005, Swedish Institute of Computer Science
  * All rights reserved.
  *

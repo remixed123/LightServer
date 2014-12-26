@@ -1,9 +1,24 @@
-/*
- * main.c
- *
- *  Created on: 29/09/2014
- *      Author: glenn
- */
+//*****************************************************************************
+//
+// Application Name        - LightServer
+// File Name			   - main.c
+// Application Version     - 2.5.0
+// Application Modify Date - 26th of December 2014
+// Application Developer   - Glenn Vassallo
+// Application Contact	   - contact@swiftsoftware.com.au
+// Application Repository  - https://github.com/remixed123/LightServer
+//
+// Application Overview    - LightServer is a Wifi enabled embedded device which
+//						     controls RGB Intelligent lighting in various ways.
+//							 You can control the lights via iOS Apps or via a
+//							 webpages that are on the device.This example project
+//							 provides a starting
+//
+// File Overview		   - main.c configures the hardware and starts the application
+//
+// Application Details     - https://github.com/remixed123/LightServer/readme.txt
+//
+//*****************************************************************************
 
 /* XDCtools Header files */
 #include <xdc/runtime/System.h>

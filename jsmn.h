@@ -1,3 +1,9 @@
+/*
+ * jsmn.h
+ *
+ *  Obtained from the JSMN Project - http://zserge.com/jsmn.html
+ */
+
 #ifndef __JSMN_H_
 #define __JSMN_H_
 

@@ -1,8 +1,7 @@
 /*
  * buf.h
  *
- *  Created on: 23/07/2014
- *      Author: glenn
+ *  Obtained from the JSMN Project - http://zserge.com/jsmn.html
  */
 
 #pragma once
