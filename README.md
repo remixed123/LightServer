@@ -11,8 +11,7 @@ Vimeo - https://vimeo.com/album/3015956
 One of the best things about LightServer is that it works with the very popular and common 
 WS8212b Chip Set lights. These are the 5 volt ones that can be found everywhere. I have 
 tested extensively with AdaFruit NeoPixels and everything works perfectly with them. AdaFruit 
-also has most everything else you need to work with.  NOTE TO SELF: Need To Look Into Seeed Studios 
-as potential promotional partner - already working with TI - They also has the WS8212b lights to sell.
+also has most everything else you need to work with.
 
 ### How Can LightServer Be Used?
 
